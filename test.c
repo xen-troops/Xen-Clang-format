@@ -13,7 +13,7 @@ struct sample{
 This is used to check support for small function in a line
 */
 int a(int x, int y)
-{}
+{  }
 
 int main()
 {
@@ -21,10 +21,10 @@ int main()
 
 if(true)
 {
-if(true)
+if (true)
 {
 printf("this should be indented\n");
-if(true)
+if(true )
 {
 printf("this should be indented too\n");
 			}
@@ -34,6 +34,8 @@ printf("this should be indented too\n");
 /*
 This will check whitespaces format
 */
+
+//Not support
 
 if((1&2)==42)
 printf("dfadsf\n" );
